@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style/style.css">
+  <title>User Registration Form For The Blog</title>
+</head>
+<body>
+  <h2>User Registration</h2>
+  <form action="submit.php" method="POST" enctype="multipart/form-data">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="profile-picture">Profile Picture:</label>
+    <input type="file" id="profile-picture" name="profilePicture" accept="image/*"><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
